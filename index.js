@@ -28,7 +28,7 @@ initializer.prototype.list = function(callback) {
 	});
 };
 
-initializer.prototype.add = function(url, id) {
+initializer.prototype.add = function(url, id, callback) {
 	var req = request.put('http://api.moodstocks.com/v2/ref/' + id, {
 		'auth': {
 			'user': this.apiKey,
@@ -40,10 +40,9 @@ initializer.prototype.add = function(url, id) {
 		}
 	}, function(error, response, body) {
 		if (error) {
-			console.log("Error: " + error);
+			callback(error, null);
 		} else {
-			console.log(response.statusCode);
-			console.log(response.body);
+			callback(null, JSON.parse(body));
 		}
 	});
 };
