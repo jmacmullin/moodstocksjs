@@ -1,0 +1,14 @@
+{
+  "name": "moodstocksjs",
+  "version": "0.0.1",
+  "description": "An unofficial library to interact with Moodstocks HTTP API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Moodstocks"
+  ],
+  "author": "Jake MacMullin <jake@stripysock.com.au> (http://stripysock.com.au/)",
+  "license": "MIT"
+}
