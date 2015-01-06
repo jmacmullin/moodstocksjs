@@ -1,6 +1,6 @@
 {
   "name": "moodstocksjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An unofficial library to interact with Moodstocks HTTP API.",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,9 @@
     "Moodstocks"
   ],
   "author": "Jake MacMullin <jake@stripysock.com.au> (http://stripysock.com.au/)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmacmullin/moodstocksjs.git"
+  }
 }
