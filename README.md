@@ -48,3 +48,4 @@ A tiny unofficial library for interacting with [Moodstocks](https://moodstocks.c
 * 0.0.1 Initial release
 * 0.0.2 Updated the NPM package
 * 0.0.3 Added a callback to the 'add' function so you can find out whether the image was added.
+* 0.0.4 Fixed a bug where the callback wasn't being called.

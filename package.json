@@ -1,6 +1,6 @@
 {
   "name": "moodstocksjs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An unofficial library to interact with Moodstocks HTTP API.",
   "main": "index.js",
   "scripts": {
