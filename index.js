@@ -39,11 +39,13 @@ initializer.prototype.add = function(url, id, callback) {
 			'image_url': url
 		}
 	}, function(error, response, body) {
-		if (error) {
-			callback(error, null);
-		} else {
-			callback(null, JSON.parse(body));
+		var data;
+
+		if (!error) {
+			data = JSON.parse(body);
 		}
+
+		callback(error, data);
 	});
 };
 
